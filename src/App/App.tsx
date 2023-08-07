@@ -1,10 +1,8 @@
-import './App.scss';
-import Game from './Game';
+import "./App.scss";
+import Game from "./Game";
 
 function App() {
-  return (
-    <Game />
-  );
+  return <Game />;
 }
 
 export default App;

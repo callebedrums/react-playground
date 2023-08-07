@@ -1,10 +1,10 @@
 module.exports = {
-    style: {
-        sass: {
-            loaderOptions: {
-                implementation: require('sass'),
-                webpackImporter: false
-            }
-        }
-    }
+  style: {
+    sass: {
+      loaderOptions: {
+        implementation: require("sass"),
+        webpackImporter: false,
+      },
+    },
+  },
 };

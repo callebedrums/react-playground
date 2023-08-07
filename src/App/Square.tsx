@@ -1,13 +1,15 @@
-import './Square.scss';
+import "./Square.scss";
 
 export interface SquareParams {
   value?: string;
-  onClick?: () => void
+  onClick?: () => void;
 }
 
 function Square({ value, onClick }: SquareParams) {
   return (
-    <button className="square" onClick={onClick}>{ value }</button>
+    <button className="square" onClick={onClick}>
+      {value}
+    </button>
   );
 }
 
